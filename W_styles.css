@@ -1,0 +1,159 @@
+body {
+    font-family: 'optima', 'serif' ,Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.header {
+    text-align: left;
+    padding: 120px;
+}
+
+.header img {
+    width: 370px;
+    padding-left: 90px;
+    margin-bottom: 30px;
+    transition: filter 0.6s ease;
+    transition: transform 0.6s ease; /* 过渡效果 */
+}
+
+.header img:hover{
+    transform: scale(1.1); /* 放大图片而不影响周围布局 */
+    filter: brightness(1.3);
+}
+
+
+
+.main-illustration {
+    text-align: right;
+    margin: 20px 0;
+}
+
+.main-illustration img {
+    max-width: 450px;
+    align-items: flex-end;
+    height: auto;
+    margin-right: 150px;
+}
+
+.designed_by{
+    text-align: right;
+    margin: 20px 0;
+}
+
+.designed_by img {
+    max-width: 430px;
+    align-items: flex-end;
+    height: auto;
+    margin-right: 150px;
+    margin-bottom: 200px;
+    transition: filter 0.7s ease;
+    transition: transform 0.7s ease; /* 过渡效果 */
+}
+
+
+.designed_by img:hover{
+    filter: invert(100%);
+    transform: scale(1.3); /* 放大图片而不影响周围布局 */
+}
+
+
+
+
+.background-image {
+    overflow: hidden;
+    margin-bottom: 200px;
+}
+
+.background-image img {
+    width: 100%;
+    height: auto;
+}
+
+
+.text-illustrations {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+
+.text-illustrations .illustration {
+    text-align: left;
+    margin-left: 130px;
+    padding-bottom: 50px;
+}
+
+.text-illustrations .illustration img {
+    width: 320px;
+    height: auto;
+    transition: transform 0.6s ease; /* 过渡效果 */
+}
+
+.text-illustrations .illustration img:hover {
+    transform: scale(1.1); /* 放大图片而不影响周围布局 */
+}
+
+
+
+.divider {
+    border: 0;
+    height: 1.2px;
+    background: #ccc;
+    margin: 80px 90px;
+    justify-items: center;
+}
+
+
+.af-text{
+    margin-top: 100px;
+    margin-bottom: 20px;
+    text-align: right;
+    margin-right: 125px;
+    font-style: italic;
+    font-size: 22px;
+}
+
+.af-text p{
+    font-size: 22px;
+    text-align: right;
+    font-style: italic;
+}
+
+
+
+.animal-friends {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    margin: 10px 0;
+    padding: 0 80px;
+    justify-items: center;
+}
+
+
+.animal-friends .animal {
+    text-align: center;
+}
+
+.animal-friends .animal img {
+    width: 340px;
+    height: auto;
+    padding-bottom: 20px;
+    transition: opacity 0.6s ease;
+    transition: transform 0.6s ease; /* 过渡效果 */
+}
+
+
+.animal-friends .animal img:hover {
+    opacity: 0.7;
+    transform: scale(1.04); /* 放大图片而不影响周围布局 */
+}
+
